@@ -1,5 +1,5 @@
 pub mod tree {
-    use std::{collections::VecDeque, result};
+    use std::collections::VecDeque;
 
     #[derive(Debug, Default)]
     pub struct Tree<T> {

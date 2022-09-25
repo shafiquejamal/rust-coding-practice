@@ -1,5 +1,7 @@
 pub mod bst {
-    use std::{arch::x86_64::_CMP_TRUE_UQ, fmt::Debug};
+    // use std::{arch::x86_64::_CMP_TRUE_UQ, fmt::Debug};
+
+    use std::fmt::Debug;
 
     type MaybeNode<T> = Option<Box<Node<T>>>;
 

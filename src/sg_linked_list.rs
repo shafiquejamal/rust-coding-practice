@@ -1,5 +1,5 @@
 pub mod linked_list {
-    use std::{fmt::Debug, rc::Rc};
+    use std::fmt::Debug;
 
     type MaybeNode<T> = Option<Box<Node<T>>>;
 
